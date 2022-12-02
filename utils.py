@@ -1,8 +1,4 @@
-def readLines(day, test):
-    fileName = f'{day}{".t" if test else ""}.txt'
-    f = open(fileName)
-    lines = []
-    for line in f:
-        sanitized = line.removesuffix('\n')
-        lines.append(sanitized)
+def readInput(day, test):
+    fileName = f'input/{day}{".t" if test else ""}'
+    lines = open(fileName).read().split('\n')
     return lines

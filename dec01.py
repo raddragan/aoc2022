@@ -1,7 +1,7 @@
 import utils
 
-def dec01(test = False):
-    lines = utils.readLines('dec01',test)
+def dec01():
+    lines = utils.readInput(1,False)
     elves = [[]]
     for line in lines:
         match line:

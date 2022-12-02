@@ -1,3 +1,3 @@
-import dec01
+import dec02
 
-dec01.dec01()
+dec02.dec02()
