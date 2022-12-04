@@ -1,3 +1,2 @@
-import dec02
-
-dec02.dec02()
+import dec04
+dec04.run()
