@@ -39,7 +39,7 @@ def run():
             toUp = list(reversed(treesByCol[x][0:y]))
             toDown = treesByCol[x][y+1:]
             directions = [toLeft, toRight, toUp, toDown]
-            if len([d for d in directions if d is None or len([t for t in d if t >= myHeight]) == 0]) > 0:
+            if len([d for d in directions if len([t for t in d if t >= myHeight]) == 0]) > 0:
                 totalVisible += 1
             myScore = getScore(myHeight, directions)
             if(myScore > maxScore):
