@@ -8,7 +8,7 @@ def plankDistance(a:list[int], b:list[int]):
     return abs(a[0]-b[0]) + abs(a[1]-b[1])
     
 def readInput(day, test):
-    fileName = f'input/{day}{".t" if test else ""}'
+    fileName = f'input/{day}{".t" if test else ".p"}'
     lines = open(fileName).read().split('\n')
     return lines
 

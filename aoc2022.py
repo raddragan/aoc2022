@@ -1,2 +1,2 @@
-import dec09
-dec09.run()
+import dec10
+dec10.run()
