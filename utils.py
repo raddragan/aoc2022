@@ -12,5 +12,11 @@ def readInput(day, test):
     lines = open(fileName).read().split('\n')
     return lines
 
+def strToNum(s:str):
+    num = ord(s)
+    if(num > 90):
+        return num-96
+    return num-38
+
 def unique(lst):
     return (list(set(lst)))
